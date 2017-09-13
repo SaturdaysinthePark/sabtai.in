@@ -704,7 +704,7 @@ a:focus {
     display: inline-block;
     padding-left: 0px;
   }
-  .outer-container{
+  .inner-panel{
     padding: 0% 10%;
   }
 }
