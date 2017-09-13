@@ -685,5 +685,26 @@ a:focus {
   height: 40px;
   width: 40px;
 }
-
+.socialpanel {
+  float: left;
+  display: inline-block;
+  padding: 5% 0;
+}
+.panel {
+  float: left;
+  display: inline-block;
+}
+.bodypanel {
+  text-align:right;
+  padding-left:200px;
+}
+@media screen and (max-width: 500px){
+  .bodypanel {
+    text-align:center;
+    display: inline;
+  }
+  .outer-container{
+    padding: 0% 15%;
+  }
+}
 /*# sourceMappingURL=application.css.map */
