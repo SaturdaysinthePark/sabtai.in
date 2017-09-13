@@ -701,10 +701,11 @@ a:focus {
 @media screen and (max-width: 500px){
   .bodypanel {
     text-align:center;
-    display: inline;
+    display: inline-block;
+    padding-left: 0px;
   }
   .outer-container{
-    padding: 0% 15%;
+    padding: 0% 10%;
   }
 }
 /*# sourceMappingURL=application.css.map */
